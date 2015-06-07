@@ -1,0 +1,67 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Export">
+      <UniqueIdentifier>{cec74531-0ddf-47b6-bd2e-46772bb7aa27}</UniqueIdentifier>
+      <Extensions>h</Extensions>
+    </Filter>
+    <Filter Include="Export\C#">
+      <UniqueIdentifier>{cff398d6-9fcf-4af4-acbe-dd819dfa4331}</UniqueIdentifier>
+      <Extensions>h</Extensions>
+    </Filter>
+    <Filter Include="Export\C++">
+      <UniqueIdentifier>{cffd95ba-6b72-4296-9b1f-fcb3ff906c36}</UniqueIdentifier>
+      <Extensions>h</Extensions>
+    </Filter>
+    <Filter Include="Export\C++\Base">
+      <UniqueIdentifier>{70f2a184-7d72-40be-91e8-394c97b0ea1d}</UniqueIdentifier>
+      <Extensions>h</Extensions>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="BuildBestHand.cpp">
+      <Filter>Resource Files</Filter>
+    </ClCompile>
+    <ClCompile Include="CalcHeroWinOdds.cpp">
+      <Filter>Resource Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="BuildBestHand.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Export\C++\Base\Enum.h">
+      <Filter>Export\C++\Base</Filter>
+    </ClInclude>
+    <ClInclude Include="Export\C++\Base\Extern.h">
+      <Filter>Export\C++\Base</Filter>
+    </ClInclude>
+    <ClInclude Include="Export\C#\CalcHeroWinOddsResult.cs">
+      <Filter>Export\C#</Filter>
+    </ClInclude>
+    <ClInclude Include="Export\C#\CardSet.cs">
+      <Filter>Export\C#</Filter>
+    </ClInclude>
+    <ClInclude Include="Export\C#\Hand.cs">
+      <Filter>Export\C#</Filter>
+    </ClInclude>
+    <ClInclude Include="Export\C#\Api.cs">
+      <Filter>Export\C#</Filter>
+    </ClInclude>
+    <ClInclude Include="Export\C++\Api.h">
+      <Filter>Export\C++</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
